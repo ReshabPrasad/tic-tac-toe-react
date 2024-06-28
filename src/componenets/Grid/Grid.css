@@ -1,0 +1,80 @@
+.grid-wrapper {
+    max-width: 500px;
+    padding-bottom: 10rem;
+}
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.turn-highlight {
+    color: white;
+}
+
+.reset {
+    padding: 1rem;
+    color: white;
+    background-color: var(--resetGreen);
+    border-radius: 10px;;
+    border: none;
+    width: 100%;
+}
+
+.h1{
+    justify-content: center;
+    padding-left: 9rem;
+  }
+  
+  .h2{
+    justify-content: center;
+    padding-left: 9rem;
+  }
+
+  /* General button styling */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Full viewport height */
+    width: 10vw; /* Full viewport width */
+    padding-left: 23vh;
+}
+
+
+/* General button styling */
+.button {
+    background-color:black; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the element to behave like a button */
+    font-size: 16px; /* Set a font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.button:hover {
+    background-color:rgb(69, 69, 107); /* Darker green on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Focus effect */
+.button:focus {
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 10px #719ECE; /* Add a subtle shadow */
+}
+
+/* Active effect */
+.button:active {
+    background-color: #8e733e; /* Even darker green on active */
+    transform: scale(0.95); /* Slightly smaller on active */
+}
